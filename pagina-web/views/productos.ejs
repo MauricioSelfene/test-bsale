@@ -1,0 +1,23 @@
+<%- include layouts/header.ejs %>
+
+    <div class="container">
+      <br>
+      <div class="row">
+      <% for(var product=0;product<Product.length; product++) { %>
+        <div class="col-sm-3">
+          <div class="card"  >
+            <img  height="230" src="<%=Product[product].url_image %>" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title"><%=Product[product].name %></h6>
+              <a href="#" class="btn btn-primary">$ <%=Product[product].precio %></a>
+            </div>
+          </div>
+        </div>
+        
+      <% } %>  
+    </div>
+    <br>
+    </div>
+
+<%- include layouts/footer.ejs %>
+
