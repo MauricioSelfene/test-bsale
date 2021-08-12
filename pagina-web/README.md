@@ -72,7 +72,7 @@ npm start
 
 ## Despliegue 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+_Diploy hecho en gheroku usando el heroku-cli_
 
 
 ## Licencia 📄
